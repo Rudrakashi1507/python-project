@@ -1,0 +1,5 @@
+Weather Report for Jaipur
+-------------------------------
+Temperature: 26.46°C
+Humidity: 86%
+Condition: Few Clouds

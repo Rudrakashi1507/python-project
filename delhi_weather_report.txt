@@ -1,0 +1,5 @@
+Weather Report for Delhi
+-------------------------------
+Temperature: 28.45°C
+Humidity: 77%
+Condition: Broken Clouds
