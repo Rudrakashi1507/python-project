@@ -1,25 +1,39 @@
-# 🌦 Weather Dashboard
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/73f14943-4015-4eb7-a8f9-5c257cb9c547" /># 🌤 Weather Dashboard
+A simple Python GUI application to check the current weather of any city using the OpenWeatherMap API.
+**How to Run**
+1.Get your free API key from [OpenWeatherMap](https://openweathermap.org/api)
+2.Replace the API key in the code:
+   api_key = "470b42ce0d46d2fc5ccbd150f33aa4c9"
 
-A simple Python GUI application that allows users to view the current weather of any city using the OpenWeatherMap API.
+   
+**FEATURES**
+Enter any city name to fetch weather
+Shows:
+Temperature (°C)
+Humidity (%)
+Weather Condition (e.g. cloudy, sunny)
+Weather icon for visual indication
+Export weather report to .txt file
+Error handling for invalid city or API issues
+Clean and user-friendly GUI using tkinter
 
----
 
-## 🔧 Features
+**BUILT WITH**
+Python (100%)
 
-- 🌍 Enter any city and get:
-  - Temperature
-  - Humidity
-  - Weather condition (e.g., Clear, Rainy)
-  - Weather icon (live from API)
+**Libraries used**
+tkinter (GUI)
+requests (API calls)
+Pillow (for showing weather icons)
 
-- 💾 Export weather report to a `.txt` file
 
-- 📜 Dropdown menu for recent city searches (auto-update)
+**PYTHON CONCEPTS USED**
+Functions
+GUI Programming (tkinter)
+File handling
+API Integration (requests)
+Error handling (try/except)
+Dictionaries
+String formatting (f-strings)
 
-- 🧠 Clean and beginner-friendly code (uses `tkinter` and `requests`)
 
----
-
-## 📁 Project Structure
-
-# python-project
